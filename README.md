@@ -1,15 +1,26 @@
-# 📚 Study Buddy - AI Learning Assistant
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/a2pucUEo)
 
-An intelligent learning companion built with Streamlit and Groq API to help you with your studies, understand concepts, and get homework help.
+# 🤖 Multi-Theme AI Chatbot
+
+An intelligent AI assistant built with Streamlit and Groq API, featuring 4 unique themes and 3 personality modes for each theme.
 
 ## ✨ Features
 
-- 💬 Real-time chat interface
+- 🎭 **4 Chatbot Themes:**
+  - 🎮 Gaming Helper - Gaming strategies, tips, and recommendations
+  - 📚 Study Buddy - Learning assistance and homework help
+  - 🎵 Music Helper - Music theory, recommendations, and production tips
+  - ⚽ Sports Coach - Fitness training and sports techniques
+
+- 🎨 **3 Personality Modes** (per theme):
+  - 😊 Friendly - Warm and friendly conversations
+  - 🎯/🎓/🎼/🏅 Professional - Expert advice and guidance
+  - 😄 Humorous - Fun and entertaining interactions
+
+- 💬 Real-time chat interface with streaming responses
 - 🤖 Powered by Groq's llama-3.3-70b-versatile model
-- 📖 Focused on learning and education
-- 🎨 Clean and intuitive Streamlit interface
 - 💾 Chat history support
-- 🔄 Streaming responses for real-time interaction
+- 🔄 Dynamic theme and personality switching
 
 ## 🚀 Quick Start
 
@@ -53,13 +64,27 @@ ai-chatbox/
 └── README.md          # Project documentation
 ```
 
-## 💡 Example Questions
+## 💡 Example Questions by Theme
 
+### 🎮 Gaming Helper
+- "Best strategy for Elden Ring bosses?"
+- "How to improve aim in Valorant?"
+- "What's the meta build for League of Legends?"
+
+### 📚 Study Buddy
 - "Explain photosynthesis"
 - "Help me understand the Pythagorean theorem"
 - "What's the difference between lists and tuples in Python?"
-- "How can I improve my memory?"
-- "Explain quantum mechanics in simple terms"
+
+### 🎵 Music Helper
+- "Recommend albums similar to Pink Floyd"
+- "How do I play C major scale on guitar?"
+- "Explain the difference between major and minor keys"
+
+### ⚽ Sports Coach
+- "Create a beginner running program"
+- "How do I improve my basketball shooting?"
+- "Best exercises for building core strength"
 
 ## 🛠️ Tech Stack
 
