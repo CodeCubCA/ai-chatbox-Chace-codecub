@@ -31,7 +31,7 @@ if "chatbot_theme" not in st.session_state:
 # Chatbot theme configurations
 chatbot_configs = {
     "Gaming": {
-        "title": "🎮 My Gaming AI Assistant",
+        "title": "🎮 My AI Assistant v2.0",
         "subtitle": "Your ultimate gaming companion - level up your gameplay! 🏆",
         "icon": "🎮",
         "welcome": "👋 Welcome to Gaming Helper!\n\nI'm your AI gaming assistant, here to help you dominate the game! I can help you with:\n\n🎯 **Game strategies & tips** - Master tactics and winning strategies\n🗺️ **Walkthroughs & guides** - Get unstuck and find hidden secrets\n⚔️ **Character builds & loadouts** - Optimize your setup for victory\n🏆 **Competitive advice** - Improve your skills and climb the ranks\n🎲 **Game recommendations** - Discover new games you'll love\n\nChoose your preferred interaction style from the sidebar, and let's start gaming! What game are you playing today?",
@@ -307,8 +307,3 @@ with st.sidebar:
     st.caption(f"🤖 Theme: {theme_options[st.session_state.chatbot_theme]}")
     st.caption(f"🎭 Personality: {personality_icons[st.session_state.personality]} {st.session_state.personality}")
     st.caption(f"💬 Messages: {len(st.session_state.messages)}")
-# Before:
-st.title("AI Chatbot")
-
-# After:
-st.title("🤖 My Awesome AI Chatbot")
