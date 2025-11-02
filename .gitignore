@@ -1,8 +1,14 @@
-# Environment variables
+# Environment variables (important!)
 .env
+.env.local
+.env.*.local
 
-# Python cache files
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 *.py[cod]
 *$py.class
 *.so
@@ -11,26 +17,38 @@ __pycache__/
 venv/
 env/
 ENV/
-.venv
+.venv/
 
-# IDE configuration
+# IDE files
 .vscode/
 .idea/
+*.sublime-*
 *.swp
 *.swo
 *~
 
-# OS files
+# Mac system files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
 Thumbs.db
+Desktop.ini
 
 # Streamlit cache
 .streamlit/
 
-# Log files
+# Logs
 *.log
+
+# Temporary files
+*.tmp
+*.temp
 
 # Distribution / packaging
 dist/
 build/
 *.egg-info/
+*.egg
+wheels/
